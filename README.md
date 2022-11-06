@@ -2,12 +2,13 @@
 Criando meu primeiro repositório no GitHub para o desafio de projeto do curso Orange tech + inter em parceria com a DIO para registrar e compartilhar meu aprendizado e informações sobre o git.
 
 
-## Site para baixar o Git
+## Configurando o Git
+1. Instalando o Git:
 - faça o download do git para windows aqui (https://git-scm.com/download/win)<br>
 - depois de baixado,clique duas vezes no arquivo para iniciar a instalação.Basta seguir as instruções na tela,clicando em next. Ao final, clique em finish para concluir.
 
-## Configurações básicas do Git
-Após instalação do git umas das primeiras coisas a serem feitas é a configuração dos  dados do usuário , para poder identificar quem está tomando as ações. Basta abrir o prompt de comando e digitar os seguintes comandos no terminal:
+2. Configuração inicial do Git:
+- Após instalação do git umas das primeiras coisas a serem feitas é a configuração dos  dados do usuário , para poder identificar quem está tomando as ações. Basta abrir o prompt de comando e digitar os seguintes comandos no terminal:
 
  > git config --global user.name  " digite seu nome"
 
