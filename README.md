@@ -1,5 +1,7 @@
-<h1 align="center"> Desafio de projeto sobre Git/GitHub da DIO </h1>
+ # Desafio de projeto sobre Git/GitHub da DIO
+ 
  😉 Criando meu primeiro repositório no GitHub para o desafio de projeto do curso Orange tech + inter em parceria com a DIO para registrar e compartilhar meu aprendizado e informações sobre o git. 
+ 
  
  
  
