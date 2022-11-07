@@ -12,7 +12,8 @@
 
 
 ## 📌 Configurando o Git
-1. Instalando o Git:
+1. Instalando o Git na sua máquina:
+
 - faça o download do git para windows aqui (https://git-scm.com/download/win)<br>
 - depois de baixado,clique duas vezes no arquivo para iniciar a instalação. Basta seguir as instruções na tela,clicando em next. Ao final, clique em finish para concluir.
 
@@ -30,32 +31,44 @@
 ## 📌 Criando um repositório local
 
 
-- Crie uma pasta, a pasta criada, será a pasta raiz do seu projeto,onde você criará seu repositorio  local com o comando:
+- Crie uma pasta no diretório desejado:
 
-                  git init
+    $ mkdir "Nome-da-pasta"
+    
+- Acesse a pasta:
+
+    $ cd Nome-da-pasta
+    
+- Em seguida inicialize o repositório:
+
+    $ git init
                   
                   
                               
                               
 ## 📌 Rastreando os arquivos
-- Podemos ver a situação dos arquivos no repositório Git com o comando:
+
+-Mostrar o estado atual do seu repositório:
 
                  git status
                                                               
                                                               
-- para adicionar arquivos no repositório devemos executar o seguinte comando:
+- para adicionar arquivos no repositório:
                                                           
                 git add "nome do arquivo"
                                                          
                                                          
-- Para  adicionar todos os ficheiros de uma só vez executamos o seguinte comando:
+- Para  adicionar todos os arquivos de uma só vez:
 
                 git add .
+                
+ *Obs: todos os arquivos adicionados no git devem ser commitados
                                                                
                                                                
 ## 📌 Enviando alterações
 
 - Para gravarmos as mudanças no repositório (fazer o commit), devemos executar o comando:
+
 
               git commit -m "comentários das alterações"
               
@@ -63,18 +76,22 @@
                                            
                                           
 
-## 📌 Preparando seu projeto para o GitHub
+## 📌 Ligando seu repositório local(Git) para o remoto( GitHub):
 
 - Devemos agora apontar o repositório da nossa máquina para o repositório do GitHub.
+
                                                  
-             git remote add origin https://github.com/seunome/repositorio.git
+            git remote add origin url_do_repositório_remoto
+            
+            
+ utilize **$ git remote -v** para mais informações sobre o repositório.
              
                               
-                              
+                               
 
 ## 📌 Enviando as alterações para o GitHub
 
-- Com o repositório remoto configurado, podemos enviar nossas mudanças para o GitHub basta executar o comando git push, da seguinte forma:
+- Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
 
                git push origin master
 
@@ -90,9 +107,9 @@ Password for ’https://fulanodasilva@github.com’
 
 ## 📌 Obtendo um repositório
 
-- Para obter o código do projeto lá do GitHub, execute o comando <code>git clone</code> da seguinte forma:
+- Clonar um repositório já existente:
 
-                git clone https://github.com/sant1ana/sant1ana.git
+                git clone url_do_repositório
                                                    
                                                    
 
