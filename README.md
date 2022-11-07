@@ -33,15 +33,15 @@
 
 - Crie uma pasta no diretório desejado:
 
-    $ mkdir "Nome-da-pasta"
+     mkdir "Nome-da-pasta"
     
 - Acesse a pasta:
 
-    $ cd Nome-da-pasta
+     cd Nome-da-pasta
     
 - Em seguida inicialize o repositório:
 
-    $ git init
+     git init
                   
                   
                               
