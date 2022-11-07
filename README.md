@@ -30,7 +30,7 @@
 ## 📌 Criando um repositório local
 
 
-Crie uma pasta, a pasta criada, será a pasta raiz do seu projeto,onde você criará seu repositorio  local com o comando:
+- Crie uma pasta, a pasta criada, será a pasta raiz do seu projeto,onde você criará seu repositorio  local com o comando:
 
                   git init
                   
@@ -38,32 +38,34 @@ Crie uma pasta, a pasta criada, será a pasta raiz do seu projeto,onde você cri
                               
                               
 ## 📌 Rastreando os arquivos
-Podemos ver a situação dos arquivos no repositório Git com o comando:
+- Podemos ver a situação dos arquivos no repositório Git com o comando:
 
                  git status
                                                               
                                                               
- para adicionar arquivos no repositório devemos executar o seguinte comando:
+- para adicionar arquivos no repositório devemos executar o seguinte comando:
                                                           
                 git add "nome do arquivo"
                                                          
                                                          
-Para  adicionar todos os ficheiros de uma só vez executamos o seguinte comando:
+- Para  adicionar todos os ficheiros de uma só vez executamos o seguinte comando:
 
                 git add .
                                                                
                                                                
 ## 📌 Enviando alterações
-Para gravarmos as mudanças no repositório (fazer o commit), devemos executar o comando:
+
+- Para gravarmos as mudanças no repositório (fazer o commit), devemos executar o comando:
 
               git commit -m "comentários das alterações"
               
               
-                                          
+                                           
                                           
 
 ## 📌 Preparando seu projeto para o GitHub
-Devemos agora apontar o repositório da nossa máquina para o repositório do GitHub.
+
+- Devemos agora apontar o repositório da nossa máquina para o repositório do GitHub.
                                                  
              git remote add origin https://github.com/seunome/repositorio.git
              
@@ -71,7 +73,8 @@ Devemos agora apontar o repositório da nossa máquina para o repositório do Gi
                               
 
 ## 📌 Enviando as alterações para o GitHub
-Com o repositório remoto configurado, podemos enviar nossas mudanças para o GitHub basta executar o comando git push, da seguinte forma:
+
+- Com o repositório remoto configurado, podemos enviar nossas mudanças para o GitHub basta executar o comando git push, da seguinte forma:
 
                git push origin master
 
@@ -86,7 +89,8 @@ Password for ’https://fulanodasilva@github.com’
 
 
 ## 📌 Obtendo um repositório
-Para obter o código do projeto lá do GitHub, execute o comando <code>git clone</code> da seguinte forma:
+
+- Para obter o código do projeto lá do GitHub, execute o comando <code>git clone</code> da seguinte forma:
 
                 git clone https://github.com/sant1ana/sant1ana.git
                                                    
@@ -97,18 +101,20 @@ Para obter o código do projeto lá do GitHub, execute o comando <code>git clone
 
   
 ## 📌 Criando uma branch
-O branch master é o branch “padrão” do repositorio, para criar outra branch utilize o comando:
+
+- O branch master é o branch “padrão” do repositorio, para criar outra branch utilize o comando:
  
                 git checkout -b nomedabranch
                                                              
                                                              
                      
 ##### Esse comando criará uma branch em seu local de trabalho, Não será exibida nenhuma resposta. Se listarmos as branches com o comando <code>git branch</code>, aparecerá as nossas branches.
-Para fazer o push (algo como enviar) da nova branch para o repositório remoto, você precisa usar o comando a seguir:
+
+- Para fazer o push (algo como enviar) da nova branch para o repositório remoto, você precisa usar o comando a seguir:
 
                 git push -u <local-remoto> <nome-da-branch> 
 
-para retornar para a branch master:
+- para retornar para a branch master:
 
                git checkout master
                
@@ -116,7 +122,8 @@ para retornar para a branch master:
 
 
 ## 📌 Trocando de branch
-Para trocarmos para a branch recentemente criada, devemos executar:
+
+- Para trocarmos para a branch recentemente criada, devemos executar:
 
                 git checkout <nome-da-branch>
                                                              
@@ -125,7 +132,8 @@ Para trocarmos para a branch recentemente criada, devemos executar:
                                                              
 
 ## 📌 Deletando uma branch
-Para deletar uma branch, devemos utilizar a opção <code>-d</code> do <code>git branch</code> executando comando:
+
+- Para deletar uma branch, devemos utilizar a opção <code>-d</code> do <code>git branch</code> executando comando:
                                                                        
               git branch -d <nome-da-branch>
                                                                 
