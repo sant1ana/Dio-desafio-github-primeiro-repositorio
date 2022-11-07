@@ -33,15 +33,15 @@
 
 - Crie uma pasta no diretório desejado:
 
-     mkdir "Nome-da-pasta"
+      mkdir "Nome-da-pasta"
     
 - Acesse a pasta:
 
-     cd Nome-da-pasta
+      cd Nome-da-pasta
     
 - Em seguida inicialize o repositório:
 
-     git init
+      git init
                   
                   
                               
@@ -50,17 +50,17 @@
 
 -Mostrar o estado atual do seu repositório:
 
-                 git status
+      git status
                                                               
                                                               
 - para adicionar arquivos no repositório:
                                                           
-                git add "nome do arquivo"
+      git add "nome do arquivo"
                                                          
                                                          
 - Para  adicionar todos os arquivos de uma só vez:
 
-                git add .
+        git add .
                 
  *Obs: todos os arquivos adicionados no git devem ser commitados
                                                                
@@ -70,18 +70,17 @@
 - Para gravarmos as mudanças no repositório (fazer o commit), devemos executar o comando:
 
 
-              git commit -m "comentários das alterações"
+      git commit -m "comentários das alterações"
               
               
-                                           
-                                          
+                                                                               
 
 ## 📌 Ligando seu repositório local(Git) para o remoto( GitHub):
 
 - Devemos agora apontar o repositório da nossa máquina para o repositório do GitHub.
 
                                                  
-            git remote add origin url_do_repositório_remoto
+      git remote add origin url_do_repositório_remoto
             
             
  utilize **$ git remote -v** para mais informações sobre o repositório.
@@ -93,7 +92,7 @@
 
 - Fazer push para o repositório remoto, atualizando-o conforme o seu repositório local:
 
-               git push origin master
+      git push origin master
 
 
 Com o comando anterior, enviamos as alterações para o repositório remoto configurado com o nome origin.
@@ -109,7 +108,7 @@ Password for ’https://fulanodasilva@github.com’
 
 - Clonar um repositório já existente:
 
-                git clone url_do_repositório
+      git clone url_do_repositório
                                                    
                                                    
 
@@ -121,7 +120,7 @@ Password for ’https://fulanodasilva@github.com’
 
 - O branch master é o branch “padrão” do repositorio, para criar outra branch utilize o comando:
  
-                git checkout -b nomedabranch
+      git checkout -b nomedabranch
                                                              
                                                              
                      
@@ -129,11 +128,11 @@ Password for ’https://fulanodasilva@github.com’
 
 - Para fazer o push (algo como enviar) da nova branch para o repositório remoto, você precisa usar o comando a seguir:
 
-                git push -u <local-remoto> <nome-da-branch> 
+      git push -u <local-remoto> <nome-da-branch> 
 
 - para retornar para a branch master:
 
-               git checkout master
+      git checkout master
                
                
 
@@ -142,7 +141,7 @@ Password for ’https://fulanodasilva@github.com’
 
 - Para trocarmos para a branch recentemente criada, devemos executar:
 
-                git checkout <nome-da-branch>
+      git checkout <nome-da-branch>
                                                              
                                                              
                 
@@ -152,9 +151,9 @@ Password for ’https://fulanodasilva@github.com’
 
 - Para deletar uma branch, devemos utilizar a opção <code>-d</code> do <code>git branch</code> executando comando:
                                                                        
-              git branch -d <nome-da-branch>
+      git branch -d <nome-da-branch>
                                                                 
 
 ##### Não é possível remover uma branch enquanto estivermos nela. Por isso, devemos ir para outra branch. Para ir para a branch, devemos executar:
 
-              git checkout nomedobranch
+      git checkout nomedobranch
