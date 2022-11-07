@@ -27,7 +27,9 @@
  
  
 
-## 📌 Criando um repositório 
+## 📌 Criando um repositório local
+
+
 Crie uma pasta, a pasta criada, será a pasta raiz do seu projeto,onde você criará seu repositorio  local com o comando:
 
                   git init
@@ -48,7 +50,7 @@ Podemos ver a situação dos arquivos no repositório Git com o comando:
                                                          
 Para  adicionar todos os ficheiros de uma só vez executamos o seguinte comando:
 
-                git add *
+                git add .
                                                                
                                                                
 ## 📌 Enviando alterações
