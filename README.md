@@ -95,10 +95,11 @@
  - utilize **git remote -v** para mais informações sobre o repositório.
  
  
-   Em seguida, utilize o comando:
+     Em seguida, utilize o comando:
   
    
-    git push -u origin master
+       git push -u origin master
+      
     
    para enviar os arquivos para o repositório remoto.
              
